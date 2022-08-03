@@ -1,0 +1,17 @@
+<h1 class="text-center" >Pokedex</h1>
+  <div class="divMove">
+    <input type="text" [(ngModel)]="pokeName"><button (click)="searchPokemon()">Search</button>
+<div class="card mt-4" style="width: 25rem;">
+  <img src="{{urlImage}}" class="card-img-top"/>
+  <div class="card-body text-left">
+    <h3 class="card-title">Name: {{name}}</h3>
+    <p class="card-text h5">Type: {{type}} {{type2}}</p>
+    <p class="card-text h5">Hp: {{hp}}</p>
+    <p class="card-text h5">Attack: {{attack}}</p>
+    <p class="card-text h5">Defense: {{defense}}</p>
+    <p class="card-text h5">Special Attack: {{sAttack}}</p>
+    <p class="card-text h5">Special Defense{{sDefense}}</p>
+    <p class="card-text h5">Speed: {{speed}}</p>
+  </div>
+</div>
+  </div>
